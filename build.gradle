@@ -16,7 +16,9 @@ dependencies {
         compile 'org.apache.curator:curator-client:3.1.0'
         compile 'org.apache.curator:curator-recipes:3.1.0'
         compile 'org.apache.zookeeper:zookeeper:3.5.0-alpha'
-	compile fileTree(dir: "/usr/local/share/java", include: "zmq.jar")
+	compile fileTree(dir: "/home/kharesp/dev_environ/jzmq/jzmq/target", include: "jzmq-3.1.1-SNAPSHOT.jar")
+	compile fileTree(dir: "/home/kharesp/dev_environ/jzmq/jzmq-core/target", include: "jzmq-core-3.1.1-SNAPSHOT.jar")
+	compile fileTree(dir: "/home/kharesp/dev_environ/jzmq/jzmq-jni/target", include: "jzmq-jni-3.1.1-SNAPSHOT.jar")
 }
 
 jar {
